@@ -121,7 +121,8 @@ namespace AppSenSoutenance
 
         private void btnUtilisateur_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new View.Account.frmUtilisateur(), sender);
+
         }
 
         private void btnSoutenance_Click(object sender, EventArgs e)

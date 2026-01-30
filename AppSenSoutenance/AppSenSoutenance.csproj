@@ -160,6 +160,7 @@
     <Compile Include="Models\Session.cs" />
     <Compile Include="Models\Soutenance.cs" />
     <Compile Include="Models\Utilisateur.cs" />
+    <Compile Include="Models\UtilisateurView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -169,6 +170,12 @@
     </Compile>
     <Compile Include="Shared\Crypted.cs" />
     <Compile Include="Shared\FillerList.cs" />
+    <Compile Include="View\Account\frmUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Account\frmUtilisateur.Designer.cs">
+      <DependentUpon>frmUtilisateur.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Parametre\frmAnneeAcademique.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +213,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Account\frmUtilisateur.resx">
+      <DependentUpon>frmUtilisateur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Parametre\frmAnneeAcademique.resx">
       <DependentUpon>frmAnneeAcademique.cs</DependentUpon>
