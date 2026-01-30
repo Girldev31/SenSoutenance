@@ -123,5 +123,10 @@ namespace AppSenSoutenance
         {
             ActivateButton(sender);
         }
+
+        private void btnSoutenance_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new View.Parametre.frmSoutenance(), sender);
+        }
     }
 }

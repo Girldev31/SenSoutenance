@@ -144,6 +144,7 @@
             this.btnSoutenance.TabIndex = 5;
             this.btnSoutenance.Text = "Soutenance";
             this.btnSoutenance.UseVisualStyleBackColor = false;
+            this.btnSoutenance.Click += new System.EventHandler(this.btnSoutenance_Click);
             // 
             // btnSession
             // 

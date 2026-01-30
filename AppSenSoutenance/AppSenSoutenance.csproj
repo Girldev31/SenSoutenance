@@ -187,6 +187,12 @@
     <Compile Include="View\Parametre\frmSession.Designer.cs">
       <DependentUpon>frmSession.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Parametre\frmSoutenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Parametre\frmSoutenance.Designer.cs">
+      <DependentUpon>frmSoutenance.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Parametre\frmSession.resx">
       <DependentUpon>frmSession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Parametre\frmSoutenance.resx">
+      <DependentUpon>frmSoutenance.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
